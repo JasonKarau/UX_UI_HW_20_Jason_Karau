@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karau Design</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/case.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <!-- navigation -->
+    <nav class="navbar">
+        <div class="brand-title"><img src="images/logo@4xcopy.png" class="logo" alt="jasons personal logo"><a href="index.html" class="home">Jason Karau</a></div>
+        <a href="#" class="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
+        <div class="navbar-links">
+            <ul>
+                <li><a href="#">Resume</a></li>
+                <li><a href="#footer">Contact</a></li>
+                <li><a href="#">My Work</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="container">
+        <!-- header content -->
+        <div class="header">
+            <a href="quelloBootstrapEx.html"><button>View bootstrap example</button></a>
+            <h1 class="italics fontOveride">Quello - Traveling Safe During a Pandemic</h1>
+            <p>UX/UI Case Study</p>
+            <img src="images/quello_1.png" class="caseImg" alt="">
+
+            <h2> Overview </h2>
+            <p>During the peak of the pandemic, people still seemed to be traveling frequently across the U.S. Most likely, there are many people who have health concerns and want to able to feel safe during travel.
+            <br><br>
+            See the lead up to Quello's Hi-Fi app design through research practices and analysis
+            </p>
+
+            <h2> The Problem </h2>
+            <p>People feel hesitant to travel currently. How can we make them feel good about travel during the pandemic?</p>
+
+            <h2> The Solution </h2>
+            <p>Quello will assist users with real time Covid safety data on their destination as well as budget tracking.</p>
+
+            <div>
+                <h2>Tools Used</h2>
+                <div class="logoGridWork">
+                    <img src="images/logos/figma.png" alt="Figma">
+                    <img src="images/logos/miro.png" alt="Miro">
+                    <img src="images/logos/invision.png" alt="Invision">
+                    <img src="images/logos/illustrator.png" alt="illustrator">
+                    <img src="images/logos/photoshop.png" alt="photoshop">
+                </div> 
+            </div>
+        </div>
+
+
+        <div class="content header">
+            <hr>
+            <h1>Phase 1: Research</h1>
+            <h2 style="margin-top: 20px;">Interview Plan</h2>
+            <p>I started researching by doing 5 interviews. The goal was to find out how an app can make users <b>feel good about travel once the pandemic ends.</b>
+                <br><br>
+                I discovered that there is a commonality between users wanting to <b>stay safe during travel</b>, while also wanting to <b>keep track of cost and have various travel options available.</b>
+                <br><br>
+                <b><u>Sample Questions:</u></b>
+                <br><br>
+                "Are you more concerned about how much your trip will cost or how long it will be?"
+                <br><br>
+                "Are there any safety concerns traveling post pandemic?"
+                <br><br>
+                "Have you ever thought about how to travel and keeping cost down?"
+                <br><br>
+                <b><u>Transcript Responses:</u></b>
+                <br><br>
+                <i>
+                "Being a PHD student and a having a part time job is whats concerning about the cost of a trip. And in this current world situation, with the pandemic. It really doesn't help...”
+                </i>
+                - Age 36, Economics PHD student
+                <br><br>
+                <i>
+                “Who says when the pandemic is really over? How do we know it’s really done? I Would be concerned of covid pockets in certain areas. What if we find out it’s not really gone in the destination? What are the local guidelines post pandemic at locations? What are the attitudes towards covid in that location? I would be questioning these statements all the time post pandemic.”
+                </i>
+                - Age 52, Accountant
+                <br><br>
+                From all responses recorded, I sorted them into categories within an affinity diagram. 
+                <br><br>
+                A clear trend from the interviews was that individuals want to apply their current financial situation with travel and know safety data post pandemic.
+                <br><br>
+                I took these insights and categories and used them to better ideate what a possible user could look like, and discern what their goals could be
+                </p>
+
+                <!-- The Modal -->
+                <img class="myImages" id="myImg" src="images/quelloimg/Affinity diagram post processed (2).jpg" alt="" width="auto" height="200">
+                <div id="myModal" class="modal">
+                    <span class="close">&times;</span>
+                    <img class="modal-content" id="img01">
+                    <div id="caption"></div>
+                </div>
+            </div>
+
+        <div class="content header">
+            <h2 style="margin-top: 20px;">Creating A Persona</h2>
+            <p>
+                I used my ideas presented in the affinity diagram to create a user named Jake. Creating an empathy map helped create a final version of a user profile.     
+            </p>
+                <img class="myImages" id="myImg" src="images/quelloimg/empath map quello.png" alt="" width="auto" height="200">
+                <div id="myModal" class="modal">
+                    <span class="close">&times;</span>
+                    <img class="modal-content" id="img01">
+                    <div id="caption"></div>
+                </div>
+                <p>
+                    Jake is a market research analyst that travels the world for work. Usually, he's by himself traveling but this time hes with his girlfriend to see family in Europe.
+                    They are in a tough situation. It's not particularly safe to travel right now and expenses are cutting it close.
+                </p>
+
+                <img class="myImages" id="myImg" src="images/quelloimg/Jason Karau User Persona.png" alt="" width="auto" height="200">
+                <div id="myModal" class="modal">
+                    <span class="close">&times;</span>
+                    <img class="modal-content" id="img01">
+                    <div id="caption"></div>
+                </div>
+        </div>
+
+        <div class="content header">
+            <hr>
+            <h1>Phase 2: Definition</h1>
+            <h2 style="margin-top: 20px;">User Insight</h2>
+                <p>
+                    Jake Anderson, a busy, hardworking, world traveler who is traveling for leisure with his girlfriend instead of work this time needs a cost management and a covid safety informational tool to aid them while planning and during travel.
+                </p>
+            <h2 style="margin-top: 20px;">Problem Statement</h2>
+                <p>
+                    Quello, is designed to ease travelers concerns by providing covid and vaccination data for chosen locations. Based on our users attitudes toward post pandemic travel there is still a concern regarding whether the pandemic is truly over and being able to manage cost due to post pandemic economic impact. How might we provide a direct experience that will help alleviate the growing concerns of expense and post pandemic travel?
+                </p>
+        </div>
+
+        <div class="content header">
+            <hr>
+            <h1>Phase 3: Ideation</h1>
+                <p>
+                    I used Miro to brainstorm and ideate. Various methods were used to find solutions to the problem at hand.
+                </p>
+                <img class="myImages" id="myImg" src="images/quelloimg/3 method.png" alt="" height="200">
+                <div id="myModal" class="modal">
+                    <span class="close">&times;</span>
+                    <img class="modal-content" id="img01">
+                    <div id="caption"></div>
+                </div>
+            <h2 style="margin-top: 20px;">“I Like, I Wish, What If” Method</h2>
+            <p>
+                Examples of things we <b>Like:</b>
+            </p>
+            <ul>
+                <li>Seeing safety data</li>
+                <li>Being able to manage expenses</li>
+            </ul>
+            
+            <p>
+                Examples of things we <b>Wish:</b>
+            </p>
+            <ul>
+                <li>Safety data could be searched by location</li>
+                <li>Vaccination Rates were able to ber seen</li>
+                <li>A location could be given a safety score</li>
+            </ul>
+            
+            <p>
+                Examples of asking <b>What If?:</b>
+            </p>
+            <ul>
+                <li>Expenses are auto calculated</li>
+                <li>You could get safety protocol info for selected locations</li>
+                <li>the app suggests places to visit based on safety data, budget and location needs?</li>
+            </ul> 
+
+            <h2 style="margin-top: 20px;">Feature Prioritization</h2>
+
+            <p>
+                After compiling a bunch of great ideas, I had to connect with the user's thoughts more. If Quello was going to provide features to Jake, what would be the most wanted features from him?
+                Here's some some most likely prioritized features from Jake:
+            </p>
+            <ul>
+                <li>Viewing of accurate and current vaccination rates of every travel location</li>
+                <li>A calculated safety score of chosen travel location</li>
+                <li>The user could use Quello to scan receipts and manually keep track of expenses during travel</li>
+            </ul>
+
+            <img class="myImages" id="myImg" src="images/quelloimg/fp.png" alt="" width="auto" height="200">
+                <div id="myModal" class="modal">
+                    <span class="close">&times;</span>
+                    <img class="modal-content" id="img01">
+                    <div id="caption"></div>
+                </div>
+
+            <h2 style="margin-top: 20px;">Value Proposition</h2>    
+            
+            <p>
+                For Quello's development to be effective, It's important to point out the product and customer relationships. We need to understand the pains and gains of both sides. In the essence of this we can come up with a statement:
+            </p>
+
+            <p>
+                <i>"Quello is creating a covid safety mobile tool with features to help people safeguard their health and their pocketbook."
+                    <br><br>
+                    We're ahead of the competition because we are providing a tool that hasn't been developed yet with an experience catered towards delivering scientific accuracy for the user's safety.
+                    We want to make sure user's are not worrying during pandemic travel, whether that be in the pocket or your surroundings.
+                    <br><br>
+                    We're beliveable because trends from research show that users want their travel experience in one place. Quello will be able to deliver more than just safety data. It can help reccomend users safer travel scenarios.
+                    An all in one experience is what sets us apart from others.
+                </i>
+            </p>
+            <img class="myImages" id="myImg" src="images/quelloimg/vp.png" alt=""  height="auto">
+            <div id="myModal" class="modal">
+                <span class="close">&times;</span>
+                <img class="modal-content" id="img01">
+                <div id="caption"></div>
+            </div>
+
+            <h2 style="margin-top: 20px;">User Scenario</h2>
+
+            <img class="myImages" id="myImg" src="images/quelloimg/user sceneario.png" alt=""  height="auto">
+            <div id="myModal" class="modal">
+                <span class="close">&times;</span>
+                <img class="modal-content" id="img01">
+                <div id="caption"></div>
+            </div>
+
+            <h2 style="margin-top: 20px;">User Journey</h2>
+
+            <img class="myImages" id="myImg" src="images/quelloimg/User Journey Map.png" alt=""  height="auto">
+            <div id="myModal" class="modal">
+                <span class="close">&times;</span>
+                <img class="modal-content" id="img01">
+                <div id="caption"></div>
+            </div>
+        </div>
+
+        <div class="content header">
+            <hr>
+            <h1>Phase 4: Prototyping</h1>
+            <h2 style="margin-top: 20px;">Competitor Analysis</h2>
+            <p>
+                To see if anything out there on the market is close to Quello's objective. I had to conduct an analysis on direct competition and indirect competition.
+            </p>
+            
+            <div class="workGrid">
+                <div class="workCard">
+                    <div>
+                        <img src="images/quelloimg/ts1.PNG" class="imgWork" alt="quello mockup">
+                    </div>
+
+                </div>
+
+                <div class="workCard">
+                    <div>
+                        <img src="images/quelloimg/tsa.PNG" class="imgWork" alt="quello mockup">
+                    </div>    
+                </div>
+
+                <div class="workCard">
+                    <div>
+                        <img src="images/quelloimg/cdc.PNG" class="imgWork" alt="quello mockup">
+                    </div>    
+                </div>
+
+            </div>
+
+            <p>
+                Looking through the apps we compared their features, competitive advantage, strengths, and weaknesses. 
+            </p>
+
+            <p><b><u>Competitor App Strengths:</u></b></p>
+
+            <p><b>Travel Smart App (Blue Wave Marketing PTY LTD) -</b></p>
+            <ul>
+                <li>Ability to call to get emergency help anywhere in foregin countries</li>
+                <li>Government travel notifications help travelers avoid certain areas</li>
+            </ul>
+
+            <p><b>Allianz Travel Smart</b></p>
+            <ul>
+                <li>Get instant access to your coverage benefits while you're traveling the globe</li>
+                <li>File a claim and track its progress on the go</li>
+                <li>Get location-based updates about events that may impact your travels</li>
+                <li>Only insurance linked safety app on the market</li>
+                <li>Great app for those who have concerning health issues on the move (and are with Allianz)</li>
+            </ul>
+
+            <p><b>CDC App (Indirect Competitor)</b></p>
+            <ul>
+                <li>Automatically updates whenever your device is online ensuring that you’re the most up-to-date individual with health news and information. Has direct links to social media, text and email letting you immediately share the most interesting articles with friends and family.
+                </li>
+            </ul>
+
+            <a href="https://drive.google.com/file/d/1udf77I9hTbYDUvJ__cDd0S_Kcx-cbKYv/view?usp=sharing"><button class="inline">See Full Analysis</button></a>
+
+            <h2 style="margin-top: 20px;">User Flow</h2>
+
+            <img class="myImages" id="myImg" src="images/quelloimg/User flow.jpg" alt=""  height="auto">
+            <div id="myModal" class="modal">
+                <span class="close">&times;</span>
+                <img class="modal-content" id="img01">
+                <div id="caption"></div>
+            </div>
+
+            <a href="https://miro.com/app/board/o9J_lZ7rzJw=/"><button>View Miro Example</button></a>
+            
+            <h2 style="margin-top: 20px;">Whiteboard Wireframes</h2>
+            <p>Going through the process of creating a drawn prototype for the first time was really interesting. I think I gave myself a good start at getting to a lofi prototype.
+                Although, my handwriting can be tough to read... It would be smarter to just use graph paper and a pencil.
+
+                <br><br>
+
+                This is a base 12 screen sketched prototype to get the basic idea of the main functions and login process of the Quello app. 
+                Make sure to read the comments of the InVision sketch prototype to see my realizations and iterations.
+
+                <br><br>
+
+                The idea is to create a 3 tab menu at the top so the user can interchange to any tab at any time. 
+                It will save the state you were at if you enter or leave a tab. 
+                Also, information saved on the expense list and itinerary creator are saved to their respective lists.
+
+                <br><br>
+
+                The three tabs include a travel expense list/tracker, a safety data location lookup process, and a safety itinerary creator. 
+                The three all together serve the apps goal: to help users feel better and organized while traveling in a post pandemic society.
+
+            </p>
+
+            <a href="https://jasonkarau517189.invisionapp.com/overview/Homework-3-Jason-Karau-Sketch-prototype-ckjt49ys4003n0154go8f779b/screens"><button>View invision Example</button></a>
+        
+            <h2 style="margin-top: 20px;">Lo-fi Prototype</h2>
+            <p>
+                From the sketches, I realized a lot had to be added during the processes to get the message across. 
+            </p>
+
+            <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="700" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FO9F0ZlFWEm3aYRKfL7VRdQ%2FQuello-Sign-in-Base-Prototype%3Fpage-id%3D0%253A1%26node-id%3D1%253A2%26viewport%3D221%252C202%252C0.08476234972476959%26scaling%3Dscale-down" allowfullscreen></iframe>
+            <p>
+                While doing some early user tests I was able to gain insight that instead of showing my user test with a pre selected path, 
+                It would be more useful to have a centralized home page where the user can go back to a previous state at any time. 
+                Working on accomplishing that was certainly a challenge with what Quello is trying to accomplish.  
+            </p>
+ 
+        </div>
+    </section>
+
+    <img src="images/splitter-black-top.png" class="splitterBlackTop" alt="splitter-black-top">
+
+    <section class="containerOff">
+        <div class="content header" style="margin-top: 0px;">
+            <h1>Phase 5: User Testing And Final Prototype</h1>
+
+            <p>
+                <b>
+                5 People were tested on my Lo-Fi prototype, 4 were recorded tests
+                <br><br>
+                There were 2 main objectives to establish
+                </b>
+            </p>
+
+            <ol>
+                <li>
+                    Gain valuable insight on how our users are signing in and getting to the onboarding process
+                </li>
+                <li>
+                    Observe how are users are using the functions provided by the app. Are they able to successfully use it as we, quello has intended to provide. 
+                    Ex: Can they make an itinerary and view the data.
+                </li>
+            </ol>
+
+            <p>
+                <b>
+                    These were the tasks given as following
+                </b>
+            </p>
+
+            <ol>
+                <li>
+                    Login successfully with no pains
+                </li>
+                <li>
+                    View safety data by searched location
+                </li>
+                <li>
+                    Save and delete an expense using both of the methods (manually and with the camera)
+                </li>
+                <li>
+                    Save an Itinerary to the list
+                </li>
+            </ol>
+
+            <p>
+                <b>
+                    Once the user testing was over and the tasks were tested, we ended up with a decent success rate. 
+                    The only task that was not completely successful was task three. Other than that aspect, user feedback was positive on functionality and purpose.
+                </b>
+            </p>     
+            
+            <img class="myImages" id="myImg" src="images/quelloimg/Guerilla testing homework 4.jpg" alt=""  height="auto">
+            <div id="myModal" class="modal">
+                <span class="close">&times;</span>
+                <img class="modal-content" id="img01">
+                <div id="caption"></div>
+            </div>
+
+            <p>
+                During my user testing I was able to capture pain points that seemed to be not that much of an impact. 
+                However, they definitely helped while iterating the Lo-Fi prototype. 
+                Overall, the feedback from the user tests was a success. Responses other than the pain points were positive.
+            </p>
+
+            <img class="myImages" id="myImg" src="images/quelloimg/Guerilla testing homework 4 2.jpg" alt=""  height="auto">
+            <div id="myModal" class="modal">
+                <span class="close">&times;</span>
+                <img class="modal-content" id="img01">
+                <div id="caption"></div>
+            </div>
+
+            <h2 style="margin-top: 20px;">Hi-fi Prototype</h2>
+
+            <p>
+                While doing some early user tests I was able to gain insight that instead of showing my user test with a pre selected path, 
+                It would be more useful to have a centralized home page where the user can go back to a previous state at any time. 
+                Working on accomplishing that was certainly a challenge with what Quello is trying to accomplish.  
+            </p>
+
+            <p>
+                <b>
+                While reviewing the footage and reactions from the user tests I found that…
+                </b>
+            </p>
+            
+            <ol class="oList">
+                <li>
+                    Users would click on form fields first to enter text 
+                </li>
+                <ul>
+                    <li>
+                        In the final prototype I made it so this action was clicked on to move on to the next screen
+                    </li>
+                </ul>
+
+                <li>
+                    Users could not figure out what the safety score was based on 
+                </li>
+                <ul>
+                    <li>
+                        Added this in the final prototype
+                    </li>
+                </ul>
+
+                <li>
+                    Back buttons were asked for since a user could not go back in certain login screens 
+                </li>
+                <ul>
+                    <li>
+                        Back buttons were added (and since the user knew that you can go back between the three tabs it wasn’t a large deal for them).
+                    </li>
+                </ul>
+
+                <li>
+                    Sign in took a bit long for some users
+                </li>
+                <ul>
+                    <li>
+                        Was shortened by reducing a couple of sign in pages
+                    </li>
+                </ul>
+
+                <li>
+                    Allowance of location data, notifications, and camera access introduced before the use of the function in the onboarding process seemed annoying to some users
+                </li>
+                <ul>
+                    <li>
+                        Added before use of the function instead
+                    </li>
+                </ul>
+
+                <li>
+                    (This is a small thing) Graphics were requested to fill more space
+                </li>
+                <ul>
+                    <li>
+                        Seemed to have fixed this
+                    </li>
+                </ul>
+            </ol>
+
+            <h2>
+                See the changes added in the final prototype here
+            </h2>
+
+            <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="700" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FcZWHg80tR2bePFLHfifEdE%2FQuello-iOS-Prototype%3Fpage-id%3D0%253A1%26node-id%3D1%253A9910%26viewport%3D1451%252C1343%252C0.14939644932746887%26scaling%3Dscale-down" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <img src="images/splitter-black-top.png" class="splitterBlackTop" alt="splitter-black-top" style="transform: scale(-1, -1); background-color: #FFAA00;">
+
+    <section class="containerOn">
+        <div class="content header" style="margin-top: 0px;">
+            <h1>Phase 6: Future Additions and Key Takeaways</h1>
+            <h2 style="margin-top: 20px;">Possible Additions</h2>
+
+            <ol class="oList">
+                <li>
+                    Customizable profile 
+                </li>
+                <ul>
+                    <li>
+                        This would be added in a more finalized version. But I decided to leave it out as it doesn’t serve as the main function in the current phase it was at.
+                    </li>
+                </ul>
+
+                <li>
+                    Settings
+                </li>
+                <ul>
+                    <li>
+                        To turn off location access and notifications. To add system integration.
+                    </li>
+                    <li>
+                        Notifications were left out since is did not show main point of functionality. Intended to notify user of responses to safety reviews. Could be added later on.
+                    </li>
+                </ul>
+
+                <li>
+                    Swipe To Delete
+                </li>
+                <ul>
+                    <li>
+                        Swiping to delete something in iOS 14 is the new norm. Adding it to the list managers would be a must in the future.
+                    </li>
+                </ul>
+            </ol>
+        </div>
+    </section>
+
+    <img src="images/splitter-orange-bottom.png" class="splitterOrangeBottom" alt="splitter-black-top">
+
+    <div class="container" style="margin-left: 10px; margin-right: 10px;">
+        <h1 class="footcenter">Thanks</h1>
+          <p class="footcenter" style="margin-right: 0px;">
+            Find what your looking for? Get in touch!
+          </p>
+      </div>
+
+    <footer class="page-footer font-small" id="footer">
+        <a class="mailto" id="contact" href="mailto:karaudesign@outlook.com">
+          <lottie-player src="https://assets8.lottiefiles.com/packages/lf20_ilujvy3v.json" background="transparent"  speed="1"  style= "height: 100px; width: 100px; "  loop  autoplay></lottie-player>
+        </a>
+        <!-- Copyright -->
+        <div class="footer-copyright py-3">© 2020 Copyright:
+          <a class="footer-a" href="#"> karaudesign.com</a>
+        </div>
+        <!-- Copyright -->
+    
+      </footer>
+    
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

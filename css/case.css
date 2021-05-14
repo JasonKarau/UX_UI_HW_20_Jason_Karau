@@ -1,0 +1,12 @@
+.oList {
+    line-height: 1.75em;
+}
+
+@media only screen and (min-width: 1024px) {
+    p {
+        margin-right: 200px;
+    }
+    li, ol, ul {
+        margin-right: 200px;
+    }
+  }
